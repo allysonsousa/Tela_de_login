@@ -1,0 +1,131 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: Helvetica;
+color: #323232;
+border: none;
+}
+
+body{
+
+	background-image: url(imagens/login7.jpg);
+	background-size: cover;	
+}
+
+
+
+
+a{
+
+	font-size: .8rem;
+}
+
+a:hover {
+
+	color: #d84315;
+}
+
+/*/////////////////////////////////////////container logim//////////////////////////////////////*/
+
+#login{
+
+	background: white;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px;
+	margin-top: 10vh;
+	border-radius: 10px;
+	text-align: center;
+	opacity: 0.9;
+} 
+
+/*///////////////////////////////////////////formulario/////////////////////////////////////////*/
+
+#formulario{
+
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+label, input{
+
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+label{
+
+	font-weight: bold;
+	font-size: 8rem;
+}
+
+input{
+	border-bottom: 2px solid #323232;
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+span{
+
+	text-align: left;
+	display: block;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 30px;
+	color: white;
+	background: #01579b;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+
+	background-color: #1b223c;
+	transition: .5s;	
+}
+
+
+/*/////////////////////////////////////redes sociais//////////////////////////////////////////////*/
+
+
+#redes-sociais p {
+
+margin-bottom: 20px; 
+
+}
+
+#redes-sociais i {
+
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	line-height: 40px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.bi-linkedin {
+	color: #01579b;	
+}
+
+.bi-facebook{
+
+	color: #1565c0 ;
+}
+
+.bi-google{
+
+	color: #f44336;
+}
